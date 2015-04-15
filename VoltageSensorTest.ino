@@ -8,7 +8,7 @@ void setup()
 void loop()
 {
    float temp;
-   val11=analogRead(1);
+   val11=analogRead(A0);
    temp=val11/4.092;
    val11=(int)temp;
    val2=((val11%100)/10);
